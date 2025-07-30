@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envianos tu opinión</title>
+    <link rel="stylesheet" href="CSS/Formulario.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/Íconos/NASAf.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+ <h1 class="intro">¡Compartí tus sugerencias con nosotros!</h1>
+ <form name="formSugerencia" action="https://formsubmit.co/60dcfec8367d9e0be13e56b7c43ab4f0" method="POST" class="row g-3 text-light needs-validation d-flex flex-sm-column flex-md-row formulario m-4 p-5" novalidate>
+     <div class="col-sm-4 col-md-2 position-relative">
+         <label for="nameId" class="form-label">Nombre: </label>
+         <input type="text" minlength="3" class="form-control" id="nameId" required>
+          <div class="invalid-tooltip">Porfavor completa con un nombre válido</div>
+     </div>
+     <div class="col-sm-4 col-md-2 position-relative">
+         <label for="surnameId" class="form-label">Apellido: </label>
+         <input type="text" minlength="3" class="form-control" id="surnameId" required>
+         <div class="invalid-tooltip">Porfavor completa con un apellido válido</div>
+     </div>
+     <div class="col-sm-4 col-md-3 position-relative">
+         <label for="Email" class="form-label">Correo electrónico: </label>
+         <input type="Email" minlength="8" class="form-control" id="Email" required>
+         <div class="invalid-tooltip">Porfavor completa con un correo válido</div>
+     </div>
+     <div class="col-12 d-flex flex-column">
+        <label for="Mensaje">Escribe tus ideas aquí:</label>     
+        <textarea name="Mensaje" id="Mensaje" cols="100" rows="10" required></textarea>
+        <div class="invalid-tooltip">Porfavor completa este campo correctamente</div>
+     </div> 
+     <div class="d-flex">
+       <button onclick="envioSugerencia();" type="submit" class="col-sm-2 col-md3 btn btn-primary">Enviar</button> 
+     </div>
+     <input type="hidden" name="_captcha" value="false">
+ </form>
+ <footer class="footer">
+    <h6>Desarrollado por Joaquín Ferreyra</h6>
+    <nav class="pie">
+      <a href="index.html">Volver al inicio</a>
+      <a href="Perfil.html">Contacto</a>
+      <a href="Suscríbete.html">Suscríbete para más contenido</a>
+    </nav>        
+ </footer>
+   <script src="JavaScript/scriptFormularios.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

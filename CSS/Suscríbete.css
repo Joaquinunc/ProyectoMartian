@@ -1,0 +1,70 @@
+*{
+    color:#fff;
+}
+body{
+    background: url(../imagenes//The\ martian\ wallpaper\ 5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.padre{
+    display: flex;
+}
+.hija{background-color: rgba(39, 39, 44, 0.397);
+border: 1px solid #fff;
+padding: 10px;
+margin: 10px;
+} 
+.gif{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;    
+}
+.gif img{
+    width: 220px;
+    height: 220px;
+    border: 1px solid white;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+form{
+    display:flex;
+    align-items: center;
+}
+.footer{
+    background: rgba(0, 0, 0, 0.945);
+    padding: 10px 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+ .pie{  
+    margin-top: 10px;      
+    font-size: 11px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;   
+  }
+  .pie a{
+   color:#fff;
+   text-decoration: none;
+   font-size: 13px;
+   margin-bottom: 5px; 
+  }
+  .pie a:hover{
+   color:#343434;
+  }
+@media (max-width: 850px){
+    .padre{
+        flex-direction: column;
+        align-items: center ;
+    }
+    .hija{
+        width: 70%;
+    }
+    
+}

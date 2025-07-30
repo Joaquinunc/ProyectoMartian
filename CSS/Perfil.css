@@ -1,0 +1,123 @@
+body{
+    font-family: sans-serif;
+    text-align: justify;
+    background:url(../imagenes/The\ martian\ wallpaper\ 5.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+  
+}
+.contenido{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+.CV-izquierda{
+    background-color: rgba(4, 21, 44, 0.856);
+    color:#ececec;
+    padding: 0 5px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+}
+.Nombre{
+    display:none;
+}
+.CV-izquierda li{
+    margin-bottom: 5px;
+}
+.foto{
+    margin-top: 15px;
+    display:flex;
+    justify-content: center;
+}
+.foto img{
+    border: 1px solid #ececec;
+    border-radius: 10px;
+}
+.redes{
+    display:flex;
+    justify-content: center;
+}
+ .redes a{
+    text-decoration: none;
+    color:white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+ }
+   .redes a:hover{
+    color:darkgrey;
+   }
+   .redes a:active{
+    color:rgb(88, 87, 87);
+   }
+.CV-derecha{
+    background-color: rgba(4, 21, 44, 0.856);
+    color:#ececec;
+    margin-left: 5px;
+    padding: 0 5px;  
+    border-radius: 10px;
+}
+.CV-derecha h1{
+    text-transform: uppercase;
+}
+.footer{
+    background: black;
+    margin: 10px -8px -10px -8px;
+    padding: 10px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+ .pie{  
+    margin-top: 10px;      
+    font-size: 11px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;   
+  }
+  .pie a{
+   color:#fff;
+   text-decoration: none;
+   font-size: 13px;
+   margin-bottom: 10px; 
+  }
+  .pie a:hover{
+   color:#343434;
+  }
+@media all and (max-width:700px){
+    .contenido{
+        flex-direction: column;
+    }
+    .Nombre{
+        display:flex;
+       justify-content: center;
+    }
+    .Foto-Datos{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .CV-derecha{
+        margin-top: 5px;
+        margin-left: -0.5px;
+    }
+    .CV-derecha h1{
+        display:none;
+    }
+}
+@media all and (max-width:500px){
+    .Foto-Datos{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer h4{
+        text-align: left;
+    }
+    footer{
+        margin:10px 0px;
+    }
+   
+}

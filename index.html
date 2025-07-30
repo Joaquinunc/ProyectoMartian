@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE MARTIAN</title>
+    <script src="https://kit.fontawesome.com/e32b37b691.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="imagenes/Íconos/NASAf.ico">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+  <div class="padre"> <!--Contenedor Principal-->
+    <header class="header"><!--Encabezado Superior-->
+        <div class="menu"><!--Índice-->
+             <div class="logo">
+               <img src="imagenes/Escenas/nasa.jpg" alt="lel" style="width: 90px; height: 70px;">
+              </div>
+             <nav class="nav">
+                <!--Boostrap Dropdown-->
+                <div class="dropdown">              
+                 <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-box-archive"></i> <span class="entspan">Sinopsis</span></a>        
+                 <p class="dropdown-menu" style="background:rgba(0, 0, 0, 0.863); color:rgb(209, 202, 202); border: 1px solid rgba(209, 202, 202, 0.527); text-align:justify;">
+                   Un explorador espacial queda atrapado en Marte, luego de ser abandonado por los miembros de su tripulación, quienes pensaron que había muerto a consecuencia de una tormenta. Casi sin recursos y con solo su ingenio, intentará sobrevivir mientras la NASA, por un lado, y los miembros de su tripulación, por su propia cuenta, intentan rescatarlo.
+                 </p>
+               </div>
+               <a href="#Escenas-subtítulo"><i class="fa-solid fa-forward-fast"></i></i> <span class="entspan">Escenas</span></a>
+               <a href="#Personajes-subtítulo"><i class="fa-solid fa-users"></i></i> <span class="entspan">Personajes</span></a>              
+               <a href="#reseña-personal"><i class="fa-solid fa-circle-question"></i></i> <span class="entspan">Trasfondo</span></a>
+             </nav>
+             <div class="social">
+               <a href="#Mtrailer"><i class="fa-solid   fa-film"></i></a>
+            </div>
+        </div>          
+    </header>
+    <div class="texto-principal">
+      <h2 class="reseña"><em>
+       "Un sublime y sofisticado entretenimiento. (...) una pura delicia, un tenso relato de supervivencia enriquecido por mucho ingenio científico y una sucesión de buenos actores en su mejor forma."-Richard Lawson Vanity Fair</em></h2>
+    </div> 
+    <!--Escenas con acordeón de Bootstrap-->
+    <h2 id="Escenas-subtítulo" class="subt-cont">Escenas</h2>
+    <section class="section margen-interno">     
+      <div id="accordionExample">
+        <div class="accordion-item"><!--Capítulo 1-->   
+          <div>
+           <h3 class="accordion-header botón-acordeón" id="headingOne">
+             <button class="text-uppercase accordion-button fs-3" type="button" data-bs-toggle="collapse"   data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               Capítulo 1
+             </button>
+           </h3>
+          </div>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+             <div class="accordion-body">          
+                  <article class="article">
+                    <img src="imagenes/Escenas/Capítulo 1/tormenta.jpg" width="500px"  height="309px"alt="">
+                    <div class="article-titles">                                                            
+                      <h5>SOL 01</h5>
+                      <h3>Un cambio de planes</h3>
+                   </div>           
+                   <p class="descr">
+                     Es el día n° 45 de la misión "ARES III" llevada a cabo por la NASA en el planeta Marte. Dicha misión consta de un equipo de 6 astronautas que están realizando tareas de observación en la superficie del cuarto planeta del sistema solar cuando una fuerte tormenta los obliga a abortar la misión y abandonar el planeta...
+                   </p>
+                  </article>
+                  <article class="article">
+                   <img src="imagenes/Escenas/Capítulo 1/despertar.jpg" width="500px"  height="309px"alt="">
+                   <div class="article-titles">
+                     <h5>SOL 02</h5>
+                     <h3>Atrapado en Marte</h3>
+                   </div>
+                   <p class="descr">
+                     Durante la colosal tormenta en el planeta rojo, uno de los miembros del equipo, el astronauta Mark Watney, es golpeado por un trozo de satélite que lo levanta varios metros y le hace perder el conocimiento, Alejándolo del cohete transporte y de la vista de sus compañeros. Al despertar, se encuentra completamente solo...
+                   </p>
+                  </article>
+             </div>
+             <div class="accordion-body">    
+                <article class="article">
+                 <img src="imagenes/Escenas/Capítulo 1/prensa.jpg" width="500px"  height="309px"alt="">
+                 <div class="article-titles">
+                   <h5>SOL 02</h5>
+                   <h3>Mala prensa</h3>
+                 </div>
+                 <p class="descr">
+                   Habiendo abortado la misión con un miembro menos, el director general de la NASA, Teddy Sanders, procede a realizar una rueda de prensa. Siendo él la cara visible, se ve en la difícil tarea de comunicar que toda la agencia hace oficial la pérdida del astronauta, asumiendo su aparente fallecimiento...
+                 </p>
+                </article>
+                <article class="article">
+                    <img src="imagenes/Escenas/Capítulo 1/sembrando.jpg" width="500px"  height="309px"alt="">
+                    <div class="article-titles">
+                      <h5>Sol 31</h5>
+                      <h3>No voy a morir aquí</h3>
+                    </div>
+                    <p class="descr">
+                      Incomunicado, asumiendo que -por ahora- fue dado por muerto, con comida limitada pero decidido a sobrevivir, Mark debe averiguar una forma para crear comida en un planeta que no es la Tierra. Afortunadamente, es un botánico, por lo que va a valerse de todos los conocimientos que tiene para convertir unas cuantas papas en literalmente una plantación extraterrestre...
+                    </p> 
+                  </article>  
+            </div>
+            <a class="anclaRegreso" href="#headingOne">Volver al título</a>
+          </div>
+        </div>
+        <div class="accordion-item"><!--Capítulo 2-->             
+          <h3 class="accordion-header botón-acordeón" id="headingTwo">
+            <button class="accordion-button text-uppercase fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Capítulo 2
+            </button>
+          </h3> 
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+            <div class="accordion-body">
+               <article class="article">
+                 <img src="imagenes/Escenas/Capítulo 2/lapapitabebe.jpg" width="500px" height="309px" alt="">
+                 <div class="article-titles">
+                   <h5>SOL 51</h5>
+                   <h3>El mejor granjero del mundo</h3>
+                 </div>
+                 <p class="descr">
+                   Luego de varias semanas de trabajo duro, tensión y expectativa, Mark se percata de que, al mirar con atención, puede ver unos pequeños brotes de plantas de papa asomarse desde suelo extraterrestre. Orgulloso a la vez que emocionado, el botánico se acerca para darle la bienvenida a su nueva creación: Una auténtica plantación marciana...
+                 </p>
+               </article>   
+               <article class="article">
+                <img src="imagenes/Escenas/Capítulo 2/asombro.jpg" width="500px" height="309px" alt="">
+                <div class="article-titles">
+                <h5>SOL 53</h5>
+                <h3>Hay alguien ahí</h3>
+                </div>
+                <p class="descr">En lo que a priori sería un día rutinario de observación satelital de Marte, la ingeniera a cargo Mindy Park nota una discrepancia en dos imágenes de dos días distintos de la zona donde la misión "ARES" había sido llevada a cabo. La profesional atribuye la anomalía a una señal de vida del hasta entonces fallecido Mark Watney, por lo que raudamente pone sobre aviso a sus superiores...</p>
+               </article>              
+            </div>
+            <div class="accordion-body">
+              <article class="article">
+                <img src="imagenes/Escenas/Capítulo 2/revelacion.jpg" width="500px"  height="309px"alt="">
+                <div class="article-titles">                                                            
+                  <h5>SOL 54</h5>
+                  <h3>Lo abandonamos</h3>
+                </div>           
+               <p class="descr">
+                 Luego de que la presencia del astronauta Watney es indiscutiblemente confirmada, Teddy Sanders, junto con Vincent Kapoor (jefe de las misiones tripuladas a Marte) y Annie Montrose (directora de relaciones públicas de la NASA), deliberan acerca de cómo ocurrió un incidente de estas características, cómo manejar el escándalo mediático inminente, y que harán para traerlo a casa.
+                </p>
+              </article>
+              <article class="article">
+                <img src="imagenes/Escenas/Capítulo 2/recalculando.jpg" width="500px"  height="309px"alt="">
+                <div class="article-titles">                                                         
+                  <h5>SOL 70</h5>
+                 <h3>Pensando a largo plazo</h3>
+                </div>           
+               <p class="descr">
+                 Mark sabe que la próxima misión tripulada, la "ARES IV", va a llegar a la superficie del planeta. Existe un pequeño problema: la zona de aterrizaje se encuentra a 3.000 Km de su ubicación actual. Frente a esto, el astronauta debe utilizar la ciencia al máximo para llegar allí a tiempo conduciendo un vehículo explorador de capacidad limitada, y combatiendo temperaturas mínimas...
+                </p>
+              </article>
+            </div>
+            <a class="anclaRegreso" href="#headingTwo">Volver al título</a>
+          </div>
+        </div>
+        <div class="accordion-item"><!--Capítulo 3-->                 
+           <h3 class="accordion-header botón-acordeón" id="headingThree">        
+             <button class="accordion-button text-uppercase fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               Capítulo 3
+             </button>
+           </h3>          
+           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"> 
+             <div class="accordion-body">
+               <article class="article">
+                 <img src="imagenes/Escenas/Capítulo 3/planrescate.jpg" width="500px"  height="309px"alt="">
+                 <div class="article-titles">                                                            
+                   <h5>SOL 75</h5>
+                   <h3>La operación rescate comienza</h3>
+                 </div>           
+                 <p class="descr">
+                   En la Tierra, la NASA se reúne para establecer un plan de rescate sólido para poder traer a su hombre de vuelta a casa. Debido a la enorme distancia que los separa de Marte, solo hacer que todos los cálculos den resultado dentro de los límites de tiempo se vuelve una verdadera odisea. Sin embargo, todos los involucrados son concientes de que, de fallar en algo, Mark Watney podría morir...
+                 </p>
+               </article>
+               <article class="article">
+                 <img src="imagenes/Escenas/Capítulo 3/cosecha.jpg" width="500px"  height="309px"alt="">
+                 <div class="article-titles">                                                            
+                   <h5>SOL 79</h5>
+                   <h3>Temporada de cosecha</h3>
+                  </div>           
+                  <p class="descr">
+                    48 días después de haber sembrado sus papas marcianas, Mark se dispone a extraer el resultado de su esfuerzo. Encontrándose con que prosperaron mejor de lo que esperaba, ahora dispone no solo de mayor cantidad de alimento, sino de más tiempo para pensar cómo ponerse en contacto con la NASA...
+                  </p>
+               </article>             
+             </div>
+             <div class="accordion-body">
+               <article class="article">
+                 <img src="imagenes/Escenas/Capítulo 3/Pathfinder.jpg" width="500px"  height="309px"alt="">
+                 <div class="article-titles">                                                            
+                   <h5>SOL 108</h5>
+                   <h3>Pathfinder</h3>
+                 </div>           
+                 <p class="descr">
+                   Tras haber pensado mucho cómo establecer una comunicación, nuestro protagonista recuerda que no muy lejos de donde "ARES III" aterrizó, se encuentra una antigua sonda de observación fotográfica abandonada en 1997, el "PATHFINDER". Con una posible vía de enlace con la NASA, Watney va en su busca, al mismo tiempo que Houston (deduciendo sus intenciones) hace lo mismo con el enlace del PATHFINDER que está en la Tierra...
+                 </p>
+               </article>
+               <article class="article">
+                 <img src="imagenes/Escenas/Capítulo 3/Hexadecimales.jpg" width="500px"  height="309px"alt="">
+                 <div class="article-titles">                                                            
+                   <h5>SOL 110</h5>
+                   <h3>Hexadecimales</h3>
+                 </div>           
+                 <p class="descr">
+                   A pesar haber avanzado, la única forma en la que Mark puede comunicarse es a través de una cámara que gira 360°. Para resolver esto, idea una forma para establecer conversaciones complejas partiendo de un sistema Hexadecimal según la posición a la que la cámara del Pathfinder apunte...                  
+                 </p>
+               </article>
+            </div>
+            <a class="anclaRegreso" href="#headingThree">Volver al título</a>
+          </div>
+        </div>   
+        <div class="accordion-item"><!--Capítulo 4-->                
+           <h3 class="accordion-header botón-acordeón" id="headingFour">        
+             <button class="accordion-button text-uppercase fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+               Capítulo 4
+             </button>
+           </h3>
+           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"> 
+            <div class="accordion-body">
+              <article class="article">
+                <img src="imagenes/Escenas/Capítulo 4/backontrack.jpg" width="500px"  height="309px"alt="">
+               <div class="article-titles">                                                            
+                 <h5>SOL 115</h5>
+                 <h3>Comunicación reestablecida</h3>
+               </div>           
+               <p class="descr">
+                 Los esfuerzos tanto de Mark como de Vincent Kapoor y su equipo dan frutos al lograr que puedan enviarse mensajes mutuamente. Desde la tierra no pierden la oportunidad para darle ánimos al hombre, al mismo tiempo de notificarle que la ayuda y provisiones están en camino. Así, la esperanza del astronauta rejuvenece...
+               </p>
+              </article>
+              <article class="article">
+                <img src="imagenes/Escenas/Capítulo 4/elsaberduele.jpg" width="500px"  height="309px"alt="">
+                <div class="article-titles">                                                            
+                  <h5>SOL 128</h5>
+                  <h3>Ellos debían saberlo</h3>
+               </div>           
+               <p class="descr">
+                 Debido a la falta de un plan factible de rescate, la NASA había optado por mantener no contarles nada de lo sucedido al resto del equipo de astronautas. Mitch Henderson, jefe en la tierra del equipo y principal detractor de esta decisión, notifica a la tripulación de lasituación. Todos al enterarse reciben la noticia con shock y culpa...
+               </p>
+              </article>             
+            </div>
+            <div class="accordion-body">
+              <article class="article">
+                <img src="imagenes/Escenas/Capítulo 4/lahoramasoscura.jpg" width="500px"  height="309px"alt="">
+                <div class="article-titles">                                                            
+                  <h5>SOL 134</h5>
+                  <h3>La hora más oscura</h3>
+                </div>           
+               <p class="descr">
+                 Una noche en la que nuestro protagonista está de regreso al hábitat, una falla de presurización hace que el pasillo de ingreso se desequilibre, volando por los aires junto con Watney adentro. Luego de a duras penas salir de él, Mark se encuentra con que la sala principal donde estaban los cultivos quedó expuesta a la helada atmósfera marciana, acabando con todas las plantas que habían allí...
+               </p>
+              </article>
+              <article class="article">
+                <img src="imagenes/Escenas/Capítulo 4/sinesperanza.png" width="500px"  height="309px"alt="">
+                <div class="article-titles">                                                            
+                 <h5>SOL 182</h5>
+                  <h3>La esperanza se desvanece</h3>
+               </div>           
+               <p class="descr">
+                 Como si haber perdido un suministro constante de comida fuese poco, el cohete (que no había pasado por una fase de controles pertinente) con las provisiones no logra atravesar la atmósfera terrestre, explotando antes de abandonar el planeta. Sin comida disponible a largo plazo, la operación de rescate se encuentra en un punto crítico, y Mark entre la espada y la pared...
+               </p>
+              </article>
+            </div>
+            <a class="anclaRegreso" href="#headingFour">Volver al título</a>
+          </div>
+        </div>  
+        <div class="accordion-item"><!--Capítulo 5-->                
+           <h3 class="accordion-header botón-acordeón" id="headingFive">        
+             <button class="accordion-button text-uppercase fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+               Capítulo 5
+             </button>
+           </h3>         
+           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"> 
+            <div class="accordion-body">
+              <article class="article">
+                <img src="imagenes/Escenas/Capítulo 5/ayudachina.jpg" width="500px"  height="309px"alt="">
+                <div class="article-titles">                                                            
+                  <h5>SOL 190</h5>
+                  <h3>Aliado inesperado</h3>
+               </div>           
+               <p class="descr">
+                 El fracaso de la NASA en el lanzamiento del cohete de abastecimiento llegó a los oídos de su homólogo chino: La CNSA. Esta agencia, luego de una breve deliberación, decide entrar en escena y participar en el rescate del astronauta estadounidense, ofreciendo un cohete ya en sus fases finales de preparación, proporcionando así una segunda oportunidad para el hombre atrapado en el planeta rojo...
+               </p>
+              </article>
+              <article class="article">
+                <img src="imagenes/Escenas/Capítulo 5/donaldglover.jpg" width="500px"  height="309px"alt="">
+                <div class="article-titles">                                                            
+                  <h5>SOL 200</h5>
+                  <h3>Proyecto Elrond</h3>
+                </div>           
+               <p class="descr">
+                Uno de los miembros del equipo de astrodinámica, Rich Purnell, desarrolla un método para reducir el tiempo de envío de los suministros en 2/3  del tiempo, utilizando la nave de los demás miembros de la tripulación, el "HERMES". Su planteo de redireccionar el curso de la embarcación utilizando la gravedad de la tierra parece factible. Sin embargo, Teddy Sanders se niega, prefiriendo no arriesgar 5 vidas más para salvar a una...
+               </p>
+              </article>         
+            </div>
+            <div class="accordion-body">
+              <article class="article">
+                <img src="imagenes/Escenas/Capítulo 5/lacomunidaddelanillo.jpg" width="500px"  height="309px"alt="">
+                <div class="article-titles">                                                            
+                  <h5>SOL 219</h5>
+                 <h3>Sálvenlo</h3>
+                </div>           
+               <p class="descr">
+                 La tripulación del "HERMES" recibe un mensaje encriptado de procedencia desconocida, informándoles el plan de Rich Purnell. Conscientes del tiempo extra de viaje, los peligros potenciales, y el hecho de estar cometiendo un acto grave de insubordinación, todos aceptan unánimamente regresar a Marte sin dudarlo para ir a buscar a su compañero ellos mismos...
+               </p>
+              </article>
+              <article class="article">
+                <img src="imagenes/Escenas/Capítulo 5/capitanbr.jpg" width="500px"  height="309px"alt="">
+                <div class="article-titles">                                                            
+                 <h5>SOL 494</h5>
+                 <h3>Todo viento en popa</h3>
+                </div>           
+               <p class="descr">
+                 8 mesés más tarde, todos está saliendo acorde al plan: El "HERMES" viaja de regreso a Marte sin complicaciones portando las provisiones enviadas desde la Tierra por parte de la NASA y la CNSA (de manera un tanto forzosa al no haber tenido ocpión estos últimos), y Mark Watney viaja en su vehículo al punto de extracción donde el cohete del "ARES IV" lo está esperando...
+               </p>
+              </article>
+            </div>
+            <a class="anclaRegreso" href="#headingFive">Volver al título</a>
+          </div>
+        </div>
+        <div class="accordion-item"><!--Capítulo 6-->                 
+           <h3 class="accordion-header botón-acordeón" id="headingSix">        
+             <button class="accordion-button text-uppercase fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+               Capítulo 6
+             </button>
+           </h3>    
+           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"> 
+             <div class="accordion-body">
+               <article class="article">
+                 <img src="imagenes/Escenas/Capítulo 6/unaideaterrible.jpg" width="500px"  height="309px"alt="">
+                 <div class="article-titles">                                                            
+                   <h5>SOL 538</h5>
+                   <h3>Plan A: despegar en una lata</h3>
+                 </div>           
+                 <p class="descr">
+                   Unas semanas antes del día de la extracción, Wong (jefe del laboratorio de propulsión) explica que, para que el cohete de despegue llegue hasta el "HERMES", este debe pesar 5 toneladas menos ¿Cuál es la solución? quitar cualquier cosa que sume peso adicional innecesario, incluyendo los mismos controles del cohete (que estarán en manos de la tripulación del HERMES remotamente) así como las exclusas. Esto significaría hacer que Mark Watney despegue dentro de prácticamente un fuselaje propulsado, una idea que, a pesar de ser una locura, es la unica opción que hay...
+                 </p>
+               </article>
+               <article class="article">
+                 <img src="imagenes/Escenas/Capítulo 6/chaumarte.jpg" width="500px"  height="309px"alt="">
+                 <div class="article-titles">                                                            
+                   <h5>SOL 561</h5>
+                   <h3>Adiós Marte</h3>
+                 </div>           
+                 <p class="descr">
+                   Llegó el día, en el que el hombre que pasó más de un año en un planeta solo, con todas las posibilidades en contra suya, logra alcanzar la oportunidad de volver a la Tierra. Sus compañeros, decididos a recuperarlo, están listos. La NASA, impotente debido a la distancia, se convierte en la cámara para que un planeta entero sea testigo de la operación de resacte más grande de la historia...
+                 </p>
+               </article>             
+             </div>
+             <div class="accordion-body">
+               <article class="article">
+                 <img src="imagenes/Escenas/Capítulo 6/porfin.jpg" width="500px"  height="309px"alt="">
+                 <div class="article-titles">                                                            
+                   <h5>Sol 561</h5>
+                   <h3>¡Lo tenemos!</h3>
+                 </div>           
+                 <p class="descr">
+                  El hombre sale propulsado como iron man producto de un agujero hecho por él mismo en su propio traje. Cinco metros por segundo, tres metros por segundo, 11 metros a distancia del objetivo. Muy rápido, se resbala de las manos de la Comandante, se agarra con todas sus fuerzas a la cinta enrollable de la silla. Ambos dan vueltas, el hombre se aferra, se enreda a sí mismo en la cuerda, la mujer tira con todo lo que tiene, se miran el uno al otro antes de darse la mano despues de tanto tiempo. Se funden en un abrazo de victoria ante las miradas atónitas de todos. <em>"Houston, lo logramos, Mark Watney está con nosotros otra vez..."</em>
+                 </p>
+               </article>
+               <article class="article">
+                  <img src="imagenes/Escenas/Capítulo 6/elmarcianomw.jpg" width="500px"  height="309px"alt="">
+                 <div class="article-titles">                                                            
+                   <h5>Día 1</h5>
+                   <h3>El marciano</h3>
+                 </div>           
+                 <p class="descr">
+                   Han pasado varios años, y nuestro protagonista, ahora convertido en leyenda, se dedica a enseñar a otros qué hacer para, de encontrarse en una situación una décima de similar sepan qué hacer. Los estudiantes escuchan y aprenden, las personas se maravillan e inspiran. Podrán haber muchos que dirán muchas cosas, pero nadie le discutirá nada a Mark Watney, porque lo logró, se convirtió en el hombre que dominó a un planeta. Todos en la tierra saben sobre el humano que se convirtió en El Marciano...
+                 </p>
+               </article>
+             </div>
+             <a class="anclaRegreso" href="#headingSix">Volver al título</a>
+           </div>
+        </div> 
+      </div>       
+    </section>
+    <!-- Personajes con carrusel de Bootstrap-->
+    <div class="subt-cont">
+      <h2 id="Personajes-subtítulo">Personajes</h2>
+      <hr>
+      <h3>TRIPULACIÓN</h3>
+     </div>
+    <div class="hijo">      
+     <section id="carouselExampleCaptions" class="carousel slide w-50" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>       
+        <div class="carousel-inner"><!--Tripulación-->
+          <div class="carousel-item active"> <!--Mark Watney--> 
+            <article class="flexi">
+              <div class="textito">
+               <h5>MARK WATNEY</h5>
+               <p>
+                 El botánico Mark Watney pasó once meses trabajando en el Centro de Vuelo Espacial Goddard de la NASA antes de ser seleccionado para la Misión Ares III.
+                 Nacido en Chicago, Watney asistió a la Universidad de Chicago para su licenciatura antes de pasar a la Universidad Northwestern, donde obtuvo un doctorado en Biología y Conservación de Plantas con énfasis en hidropedología e ingeniería ambiental.  Mientras era estudiante de posgrado, tuvo su primera experiencia con la NASA al convertirse en investigador asociado del Programa de Investigadores de Estudiantes de Posgrado (GSRP).  Su trabajo se centró en las rutas de flujo hidrológico y la gestión sostenible de los recursos hídricos dentro de la Zona Crítica de la Tierra.
+                 Luego, Mark pasó dos años en el Cuerpo de Paz diseñando agricultura sostenible y sistemas de riego de agua para países en desarrollo.
+                 A su regreso, se postuló al Programa de Candidatos a Astronautas de la NASA y fue seleccionado por sus destacados logros académicos, dedicación y servicio a la comunidad, y un historial ejemplar de logros profesionales.
+                 <ul>
+                   <li> SELECCIÓN NASA Grupo 27-2032 </li>
+                   <li>CIUDAD DE NACIMIENTO Chicago, IL</li>
+                   <li>ESPECIALIDADES Botánica, Ingeniería Mecánica</li>
+                 </ul>
+               </p>
+             </div>         
+             <img src="imagenes/Personajes/Tripulación/6_Watney.jpeg" class="crew  d-flex mx-auto" alt="madeimon">  
+            </article>       
+          </div>
+          <div class="carousel-item"><!--Melissa Lewis-->
+              <article class="flexi">
+               <div class="textito">
+                 <h5>CDTE. MELISSA LEWIS</h5>
+                 <p class="tripulantes">
+                   La comandante Melissa Lewis es la primera mujer en liderar una misión a Marte. Posee una diversa gama de experiencia y logros en el puesto de Comandante de Misión.
+                   Lewis se graduó con honores de la Academia Naval de los EE. UU. con un título en oceanografía y continuaría sirviendo como oficial en elPrograma de Ciencias del Ártico Submarino. <br>
+                   Después de su tiempo en la Marina, Lewis comenzó a trabajar en su doctorado en la División de Ciencias Geológicas y Planetarias de CalTech.  Fue allí donde se conectó y animó a unirse a la NASA.
+                   Poco después, completó una serie de misiones en el espacio, incluidos varios viajes a la estación SpaceX. <br>
+                   Recientemente, CDR Lewis habló en una conferencia de tecnología mundial organizada por la ONU-Women y abogó por un mejor acceso a los países en desarrollo del programa STEM y alentó a una nueva generación de mujeres líderes en todo el mundo. <br>
+                   <ul>
+                     <li>SELECCIÓN NASA Grupo 25 2026</li>
+                     <li>CIUDAD DE ORIGEN Missoula, MN</li>
+                     <li>ESPECIALIDADES Comandante, Geólogo</li>
+                   </ul>
+                  </p>
+                </div>
+                <img src="imagenes/Personajes/Tripulación/1_Lewis.jpeg" class="crew  d-flex mx-auto" alt="molly"> 
+              </article>
+          </div>
+          <div class="carousel-item"><!--Beth Johannsen-->         
+             <article class="flexi">
+               <div class="textito">
+                 <h5>BETH JOHANNSEN</h5>
+                  <p>
+                    Beth Johanssen demostró una prodigiosa aptitud para la tecnología a una edad temprana.  Se graduó de la escuela secundaria a los dieciséis años, Ganó el hackathon más grande de la NASA ca los diecisiete, justo antes de pasar al MIT para obtener títulos universitarios duales en matemáticas e informática. <br>
+                    Johanssen fundó una empresa de software privada antes de comenzar la escuela de posgrado en la Universidad de Stanford.  Tenía la intención de convertirse en ingeniera de software y directora ejecutiva.  Sin embargo, entraría en contacto con el ejecutivo de SpaceX, Brett Parker.Impresionado por su trabajo, Parker reclutó a Johanssen para ayudar a desarrollar el software que luego se convertiría en una parte integral del sistema operativo Hermes, lo cual la inspiró a cambiar de camino y unirse a la NASA.<br>
+                    Impulsada por su deseo de hacer el viaje a Marte, pudo aprovechar su experiencia con el Hermes y asegurar un lugar en el Ares III como operadora del sistema y técnica del reactor.  Sus conocimientos y habilidades la convierten en una valiosa adición a la misión.
+                   <ul>
+                     <li> SELECCIÓN NASA Grupo 27-2013</li>
+                     <li> CIUDAD NATAL San José, California</li>
+                     <li> ESPECIALIDAD ByOp, Técnico de reactor</li>
+                   </ul>
+                 </p>
+                </div>
+                <img src="imagenes/Personajes/Tripulación/Beth_1-0.jpeg" class="crew  d-flex mx-auto" alt="Katemara">
+             </article>            
+          </div>
+          <div class="carousel-item"><!--Alex Vogel-->
+            <article class="flexi">
+              <div class="textito">
+                <h5>ALEX VOGEL</h5>
+                <p>
+                 Alex Vogel se une a la tripulación del Ares III a través de una asociación entre la NASA y la Agencia Espacial Europea. Un destacado científico y astronauta experimentado, Vogel servirá como navegante en el Hermes. Se convertirá en el primer alemán en ir a Marte. <br>
+                 Tiene maestrías en química y astrofísica de la Universidad de Bonn, así como un doctorado en química de la Universidad de Tübingen. <br>
+                 Para su doctorado, Vogel pasó seis meses en la Antártida realizando investigaciones en conjunto con el Instituto Alfred Wegener para la Investigación Polar y Marina en Bremerhaven, Alemania.  El estudio examinó muestras de hielo antiguo y midió rastros químicos de gases de efecto invernadero en núcleos de hielo.
+                 Mientras estuvo en el campo, pasó el tiempo ofreciéndose como voluntario para ayudar con los esfuerzos para medir el fondo cósmico de microondas y ha publicado docenas de artículos en revistas internacionales.
+                 Un hombre de familia, Vogel espera que algún día su hija pueda seguir sus pasos,
+                 <ul>
+                   <li> SELECCIÓN ESA Grupo 2030 </li>
+                   <li>CIUDAD NATAL Künzelsau, ALEMANIA</li>
+                   <li>ESPECIALIDADES Química, Nav, Astrofísica</li>
+                 </ul>
+               </p>
+              </div>
+              <img src="imagenes/Personajes/Tripulación/Alex_Vogel.jpeg" class="crew  d-flex mx-auto" alt="pelao">
+            </article>           
+          </div>
+          <div class="carousel-item"><!--Chris Beck-->          
+            <article class="flexi">
+             <div class="textito">                             
+                 <h5>DR. CHRISTOPHER BECK</h5>
+                 <p>
+                   El Dr. Chris Beck, cirujano de vuelo de Ares III, se graduó <em>cum laude</em> de la Escuela de Medicina de Yale. <br>
+                   Como Capitán de las Reservas de la Fuerza Aérea de los Estados Unidos, el Dr. Beck completó una amplia capacitación en medicina aeroespacial.  Su historial de logros incluye la Medalla de elogio de la Fuerza Aérea y la Medalla por servicio meritorio. <br>
+                   Desde que se unió a la NASA, Chris Beck realizó dos viajes a la estación SpaceX y completó cinco caminatas espaciales (EVAS).  También amplió su formación con un máster en ciencias biomédicas y ha publicado numerosos artículos en revistas en colaboración con el Instituto Nacional de Investigaciones Biomédicas Espaciales.  Su investigación se ha centrado en las alteraciones musculoesqueléticas y los efectos de los viajes al espacio profundo. <br>
+                   Para la próxima misión a Marte, se desempeñará como especialista en EVA y biólogo de la tripulación, además de sus funciones como cirujano de vuelo.
+                    <ul>
+                      <li>SELECCIÓN NASA Grupo 26-2029</li>
+                      <li>CIUDAD DE NACIMIENTO Hartford, CT</li>
+                      <li>ESPECIALIDADES Cirujano, Especialista en EVA</li>
+                   </ul>
+                 </p>
+             </div>
+              <img src="imagenes/Personajes/Tripulación/Chris_Beck_1.jpeg" class="crew  d-flex mx-auto" alt="wintersoldier">
+            </article>
+          </div>
+          <div class="carousel-item"><!--Rick Martínez-->          
+            <article class="flexi">
+              <div class="textito">               
+               <h5>MAJ. RICK MARTÍNEZ</h5>
+               <p>
+                 Rick Martinez nació el 21 de enero de 1996 en Brooklyn NY. Más tarde en la vida, poco a poco se abrió camino hasta la Escuela de Pilotos de Prueba de la USAF en la Base de la Fuerza Aérea Edwards en California. Allí, dejó su huella como piloto de primer nivel y se ganó el respeto de sus compañeros y comandantes. <br>
+                 A los 15 años se dio cuenta de que su objetivo final era la NASA, su primer paso fue obtener su Licenciatura en Ciencias en Ingeniería Astronómica en la Academia de la Fuerza Aérea de los Estados Unidos. Mientras estaba en la academia, se convirtió en boxeador aficionado y ganó una medalla de oro al llevar a los Falcons a un campeonato nacional.<br>             
+                 Mientras se prepara para la misión Ares III, recibe todo el apoyo de familiares y amigos y tiene el deseo de que algún día todos tengan la oportunidad de visitar el espacio.
+                 <ul>
+                   <li>SELECCIÓN NASA Grupo 26-2029</li>
+                   <li>LUGAR DE NACIMIENTO Brooklyn, NY</li>
+                   <li>ESPECIALIDADES Piloto, Especialista MDV/MACV</li>
+                 </ul>
+               </p>              
+              </div>
+              <img src="imagenes/Personajes/Tripulación/Martinez_1.jpg" class="crew  d-flex mx-auto" alt="gordo">
+            </article>
+          </div>
+        </div>            
+     </section> 
+    </div>
+    <div class="subt-cont">
+      <h3>HOUSTON</h3>
+    </div>
+    <div id="hije"class="hijo">
+    <section id="carouselExampleIndicators" class="carousel slide w-50" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      </div>     
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <article class="flexi">
+            <div class="textito">
+             <p class="houston-descr">
+              Theodore "Teddy" Sanders es el director y administrador en jefe de la NASA durante el transcurso del rescate del astronauta Mark Watney<br>
+              Teddy Sanders nació en algún momento antes de 1980, en Estados Unidos. Durante su carrera en astronomía, saltó a la fama en toda la NASA y finalmente se convirtió en director en jefe en algún momento de su vida. <br>
+              Como director general de la agencia, fue él quien  organizó los plazos de cumplimiento de cada instancia del rescate de Watney, y accedió a aliarse con la CNSA china a fin de conseguir ese objetivo.  
+             </p>    
+            </div>       
+            <img  class="carousel2-img"src="imagenes/Personajes/Houston/Teddy_Sanders-0.jpeg" >
+          </article>
+        </div>
+        <div class="carousel-item">
+          <article class="flexi">
+            <div class="textito">
+             <p class="houston-descr">
+               Vincent Kapoor trabaja en la NASA como Director de la Misión a Marte. <br>
+               Es una de las primeras dos personas en darse cuenta de que Mark estaba vivo justo después de Mindy Park. <br>
+               Luego de conocer de que un astronauta seguía con vida, fue quien más insistió en trabajar duro para poder traerlo a casa, trabajando con el laboratorio de propulsión Jet y convenciendo a Teddy de utilizar todos los recursos disponibles.
+             </p> 
+            </div>
+            <img class="carousel2-img" src="imagenes/Personajes/Houston/Vincent_Kapoor.jpeg" >
+          </article>
+        </div>
+        <div class="carousel-item">
+          <article class="flexi">
+            <div class="textito">
+             <p class="houston-descr">
+               Mindy Park monitorea los satélites que apuntan a Marte y envía imágenes via Email, trabaja el turno de las 3 AM (que encuentra muy aburrido). <br>
+               Ella fue la primera en darse cuenta de que Mark Watney estaba vivo. Inmediatamente llamó a Vincent Kapoor.  <br>            
+               Se convirtió en su responsabilidad redirigir todos los satélites disponibles (NASA  12 y ESA 2) hacia el sitio del ARES 3. Aprendió el código Morse para poder leer los mensajes de Watney rápidamente e incluso cambió su patrón de sueño para que coincida con sus tiempos de conducción cuando Mark hizo su camino a la Ares IV.
+             </p> 
+            </div>
+            <img class="carousel2-img" src="imagenes/Personajes/Houston/Mindy_Park.jpeg" >
+          </article>
+        </div>
+        <div class="carousel-item">
+          <article class="flexi">
+            <div class="textito">
+             <p class="houston-descr">
+               Annie Montrose trabaja para la NASA como directora de relaciones públicas. 
+               Después de que Mindy Park y Kapoor se dieron cuenta de que Mark Watney estaba vivo, Annie y Teddy Sanders fueron llamados para lidiar con la situación y tratar de minimizar las consecuencias mediáticas. <br>
+               Annie fue quien reveló a la prensa que Mark Watney todavía estaba vivo y organizó las preguntas y respuestas. <br>             
+               Se sabe que es muy segura de sí misma y poderosa, pero bastante malhablada, sobretodo bajo estrés, puesto que fue una de las que peor se tomó la noticia de que Watney seguía con vida.
+             </p> 
+            </div>
+           <img class="carousel2-img" src="imagenes/Personajes/Houston/Annie_Montrose_1.jpeg" >
+          </article>
+        </div>
+        <div class="carousel-item">         
+          <article class="flexi">
+            <div class="textito">
+             <p class="houston-descr">
+               Mitch Henderson trabaja para NASA como  Director del vuelo Hermes.
+               Al estar a cargo del bienestar de la tripulación del ARES 3, quiso decirles desde el inicio que Mark estaba vivo pero Vincent Kapoor y Teddy Sanders se lo prohibieron. <br>              
+               Después Rich Purnell propuso una idea para enviar de vuelta a la tripulación a MArte. Teddy rechazó la idea ya que no quería arriesgar al resto de la tripulación. Aunque nunca lo admitió explícitamente, Mitch le envió a la tripulación una versión cifrada del plan de Rich Purnell, maniobra que le costaría su puesto en la NASA.
+             </p> 
+            </div>
+            <img class="carousel2-img"src="imagenes/Personajes/Houston/Mitch_Henderson.jpeg" >
+          </article>
+        </div>
+        <div class="carousel-item">          
+          <article class="flexi">
+            <div class="textito">
+             <p class="houston-descr">
+               Bruce Ng es un hombre asiático-estadounidense que es el director de JPL ( Laboratorio de propulsión JET) en California. <br>
+               Fue el líder del equipo que hizo el que se ocupó de todos los tecnicismos necesarios para hacer que Mark Watney regresara sano y salvo a casa. Trabajó horas extra, utilizó pocos recursos y poco tiempo ara construir el cohete de provisiones para el Hermes junto con la ayuda de un pariente suyo en la CNSA china, contacto que le sirvió para lograr una alianza entre esta agencia y la NASA luego de que el primer intento de aprovisionar la nave espacial fracasara.
+             </p>
+            </div> 
+            <img class="carousel2-img"src="imagenes/Personajes/Houston/Wong.jpg" >
+          </article>
+        </div>
+        <div class="carousel-item">        
+          <article class="flexi">
+            <div class="textito"> 
+             <p class="houston-descr">
+               Rich Purnell es un físico y científico de cohetes que trabaja para NASA.
+               Él fue quien descubrió que en lugar de enviar suministros a Marte para Mark para poder mantenerse con vida hasta el aterrizaje programado de Ares IV podrían usar la gravedad de la Tierra para disparar Hermes y la  tripulación del Ares 3 de regreso a Marte para recoger Mark Watney.
+             </p>
+            </div> 
+            <img class="carousel2-img" src="imagenes/Personajes/Houston/Rich_Purnell_5.jpeg" >
+          </article>
+        </div>
+      </div>
+    </section>
+    </div>
+    <!--Trasfondo-->
+    <section id="reseña-personal">
+      <article class="arnold">
+      <h2>TRASFONDO</h2>
+      <h4>Géneros Cinematográficos que abarca</h4>
+       <p>
+          Esta película es una magistral combinación en lo que a géneros cinematográficos se refiere, valiéndose de lo mejor del medio para construir una obra digna de elogio: <br>
+           Comenzando con el género de ciencia ficción, "The martian" se desarrolla en un futuro no muy lejano donde los viajes tripulados extensos a través del espacio son posibles, constituyendo un film que camina sobre la delgada línea que divide lo ficticio de lo real al desplegar un escenario, ambientación y situaciones científicamente plausibles y cinematográficamente verosímiles al ojo del espectador. <br>
+           Por otro lado, al ponernos en la piel tanto del protagonista, un hombre abandonado por error que debe luchar para sobrevivir teniendo todo en contra (y las implicaciones psicológicas que esto conlleva), como en los personajes secundarios (que deben lidiar con la carga moral de haber cometido el error de dejarlo solo en un lugar inhóspito mientras hacen todo lo humanamente posible para rescatarlo), hace acto de presencia el género dramático en esta cinta. Eso hace que el espectador se pregunte ¿Qué haría en esta situación?<br>
+           También podemos notar una buena dosis de aventura y épica inclusive, puesto que el personaje principal cumple el rol del héroe que debe realizar un viaje de cambio y superación, poniendo a prueba  y mejorando sus habilidades, enfrentándose y prevaleciendo (aunque no ileso) por sobre lo desconocido , y logrando regresar a su hogar como un hombre nuevo.<br>
+           Sin duda “The Martian” se presenta como una aventura que ha envejecido de manera excelente con el paso del tiempo, puesto que al situarse en el año 2032, no se trata de una época diferente a la actual, donde -si bien no se han enviado astronautas a Marte aún- ya se han desplegado numerosas operaciones de observación e investigación por medio de sondas robot en la superficie del planeta rojo. Es así que, más que mostrar una historia fantástica, podría entenderse como una antesala cinematográfica a un futuro para nada distante. <br>
+          <h5>A continuación, el trailer del film:</h5> 
+        </p>
+        <div class="Video1">
+          <video id="Mtrailer" src="Videos/TheMartiantrailer.mp4" controls></video>
+        </div>
+      </article>
+
+    </section>
+    <!--Contacto y formularios-->
+    <footer class="footer">
+        <h6>Desarrollado por Joaquín Ferreyra</h6>
+        <nav class="pie">
+          <a href="Perfil.html">Contacto</a>
+          <a href="Suscríbete.html">Suscríbete para más contenido</a>
+          <a href="Formulario.html">¿Tenés ideas para este sitio web? ¡Compartilas aquí!</a>
+        </nav>        
+     </footer>
+  </div>  
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+ <script src="JavaScript/headerAnim.js"></script>
+</body>
+</html>

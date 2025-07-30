@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscribete</title>
+    <link rel="stylesheet" href="CSS/Suscríbete.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/Íconos/NASAf.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+  <h1>¡Suscríbete para más contenido!</h1>
+  <section class="padre">   
+      <article class="hija mayor">
+         <div class="gif">
+            <img src="imagenes/Suscripción/actualizacion.gif" alt="">
+         </div>
+         <ul>
+           <li> 
+              <h4>Actualizaciones:</h4>
+              <p>Notificaciones sobre contenido nuevo que se va agregando . . .</p>
+           </li>
+         </ul> 
+      </article>
+     <article class="hija medio">    
+       <div class="gif">
+          <img src="imagenes/Suscripción/eating-popcorn-watching-a-movie.gif" alt="">
+        </div>   
+       <ul>
+          <li>
+            <h4>Ver online:</h4>
+            <p>Sitios donde mirar el film de manera gratuita . . .</p>
+          </li>           
+       </ul>
+     </article> 
+     <article class="hija menor">
+      <div class="gif">
+        <img src="imagenes/Suscripción/ApprehensiveHardKomododragon-size_restricted.gif" alt="">
+      </div>
+     <ul>
+       <li>
+         <h4>Videos extras:</h4>
+          <p>Multimedia con información adicional acerca de "The Martian" . . .</p>
+       </li> 
+       </ul>
+     </article class="hija">   
+  </section>
+  <h3>Y mucho más...</h3>
+  <form action="https://formsubmit.co/60dcfec8367d9e0be13e56b7c43ab4f0" name="formSub" method="POST" class="row g-3 needs-validation p-5 m-4 border border-secondary bg-light" novalidate>
+     <div class="d-flex flex-sm-column"> 
+      <div class="col-md-4 col-sm-4 me-2 position-relative">
+        <label for="nameId" class="form-label text-dark">Nombre: </label>
+        <input type="text" minlength="3" class="form-control" id="nameId" required>
+         <div class="invalid-tooltip">Porfavor coloca un nombre válido</div>
+       </div>
+       <div class="col-md-4 col-sm-4 me-2 position-relative">
+       <label for="surnameId" class="form-label text-dark">Apellido: </label>
+       <input type="text" minlength="3" class="form-control" id="surnameId" required>
+       <div class="invalid-tooltip">Porfavor coloca un apellido válido</div>
+       </div>
+    </div>
+    <div class="d-flex flex-sm-column"> 
+       <div class="col-md-6 col-sm-6 me-2 position-relative">
+         <label for="Email" class="form-label text-dark">Correo electrónico: </label>
+         <input type="Email" minlength="8" class="form-control" id="Email" required>
+       <div class="invalid-tooltip">Porfavor coloca un correo válido</div>
+      </div>  
+      <div class="col-md-6 col-sm-6 me-2 position-relative">
+        <label for="numero" class="form-label text-dark">Número telefónico (cel)</label>
+      <input type="number" class="form-control" id="numero" required placeholder="Omití el 0 y el prefijo 15.">
+      <div class="invalid-tooltip">Porfavor coloca un teléfono válido</div>
+      <input type="hidden" name="_captcha" value="false">
+    </div>
+    </div>
+    <div>
+    <button onclick="envioDatos()" type="submit" class="mt-3 btn btn-primary">Suscribirme</button> 
+   </div>
+  </form>
+  <footer class="footer">
+    <h6>Desarrollado por Joaquín Ferreyra</h6>
+    <nav class="pie">
+      <a href="index.html">Volver al inicio</a>
+      <a href="Perfil.html">Contacto</a>
+      <a href="Formulario.html">¿Tenés ideas para este sitio web? ¡Compartilas aquí!</a>
+    </nav>        
+ </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="JavaScript/scriptFormularios.js"></script>
+</html>

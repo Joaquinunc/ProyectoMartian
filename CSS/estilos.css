@@ -1,0 +1,327 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Roboto Slab';
+}
+body{
+   font-family: 'Roboto Slab', serif;
+   background: rgba(66, 65, 65, 0.267);
+}
+a{
+   text-decoration: none;
+}
+p{
+   text-align: justify;
+}
+.margen-interno{
+   margin: 0 25px;
+}
+.subt-cont{
+   text-align:center;
+  background: #000;
+  color:rgb(209, 202, 202);
+  margin-top:10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-left: 26px;
+  margin-right: 26px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+ }
+.padre{
+   display: flex;
+   flex-flow: column nowrap;
+}
+.header{
+   display: flex;
+   flex-flow: column wrap;
+   position:fixed;
+   top:0;
+   left:0;
+   justify-content: space-around;
+   width:100%;
+   transition: 0.7s;
+   z-index:10;
+ }
+ header.abajo{
+  background: rgba(0, 0, 0, 0.616);
+ }
+   .menu{
+    background: rgba(0, 0, 0, .3);
+    display: flex;
+    flex-flow: row nowrap;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid rgb(209, 202, 202) ;
+   }
+     .logo{
+        margin-left: 20px;
+        flex: 1 1 auto;
+     }
+     .nav{
+        flex: 6 1 auto;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: space-around;
+     }
+      .nav a{
+         text-decoration: none;
+         color:rgb(209, 202, 202);
+      }
+      .nav a:hover{
+         color:#343434;
+      }
+        .dropdown-menu{
+         text-transform:none;
+         width: 400px;             
+        }
+     .social{
+        flex: 1 1 auto;
+        font-size: 18px;
+        display:flex;
+        align-items: flex-end;
+     }
+      .social a{
+         text-decoration: none;
+         color:rgb(209, 202, 202);
+      }
+      .social a:hover{
+         color: #343434;
+      }
+      .texto-principal{
+         height: 500px;  
+         display:flex;
+         align-items: center;
+         position: relative;
+         width: 100%;
+         height: 100vh;
+         background: url(../imagenes/mars1.jpg);
+         background-repeat: no-repeat;
+         background-size:cover;
+         background-position: center center;   
+       }  
+    .reseña{
+      color:rgb(243, 237, 237);
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+      line-height: 1.6;
+    }
+/* sección Acordeón*/
+    .section{
+      margin: 0px 40px;
+    }
+   .accordion-body{
+      display:flex;
+      margin-bottom: 10px;
+  }
+   .accordion-item{
+    margin-bottom: 1px;
+   }
+    .botón-acordeón{
+      background-color: black;
+      color:rgb(209, 202, 202);
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+  }
+    .article{
+      flex: 1 1 40%;
+      font-size: 15px;
+      letter-spacing: 1px;
+      margin: 10px 10px 0 0px;
+      padding-left: 5px;
+      flex: 1 1 45%;
+      background: #ececec;
+    }
+     .article img{
+      width: 100%;
+     }
+     .article-titles{
+      margin-top: -80px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      color:rgb(248, 244, 244);
+      padding: 0px 0 10px 0;
+      font-size: 25px;
+      text-transform: uppercase;
+     }
+    .descr{
+      margin-top: 15px;
+    }
+    .anclaRegreso{
+      text-decoration:none;
+      background-color: #000;
+      color:rgb(248, 244, 244);
+      padding: 8px;
+    }
+    .anclaRegreso:hover{
+      background-color: rgb(63, 60, 60);
+      color:rgb(248, 244, 244);
+    }
+    /* Sección: Carrusel*/
+    .hijo{
+      display: flex;
+      justify-content: center;
+      background: #ececec;
+      margin: 0 25px;
+    }
+    #carouselExampleCaptions{
+       background-color: #000c09;
+       margin-top: 15px;
+    }
+    #carouselExampleIndicators{
+      background-color: #02000c;
+      margin-top: 15px;
+    }
+    #Personajes-subtítulo{
+      margin-top: 5px;
+    }
+    .carousel-indicators{
+      display: flex;
+     align-items: center;
+    }
+    .flexi{
+      display: flex;
+    }
+     .textito{
+      display: block;
+      color: #fff; 
+      font-size: 14px;
+      margin: 5px;     
+     }
+       .crew{
+       height: 600px;
+       width:350px;           
+       }
+       .carousel2-img{
+         width: 425px;
+         height: 500px;
+       }
+     .houston-descr{
+      width:200px;
+     } 
+/*Sección: Trasfondo*/
+#reseña-personal{
+   margin: 20px 25px;
+   padding: 20px;
+   font-size: 15px;
+   color:#000;
+   background-color: #ececec;
+} 
+ #reseña-personal h2{
+   text-align:center;
+   background: #000;
+   color:rgb(209, 202, 202);
+ }
+ #reseña-personal h4{
+   text-align:center;
+}
+#reseña-personal h5{
+   text-align:center;
+}
+ .Video1{
+   display:flex;
+   justify-content: center;
+ }   
+ #Mtrailer{
+   width: 540px;
+   height:350px;
+ }
+/* Sección: Pie de página */
+.footer{
+    background: #000;
+    margin-top: 10px;
+    padding: 10px 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+ .pie{  
+    margin-top: 10px;      
+    font-size: 11px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;   
+  }
+  .pie a{
+   color:#fff;
+   text-decoration: none;
+   font-size: 13px;
+   margin-bottom: 5px; 
+  }
+  .pie a:hover{
+   color:#343434;
+  }
+ /*Configuraciones responsivas*/ 
+@media all and (max-width:850px){
+ .entspan{
+   display: none;
+ }
+ .nav{
+   display:flex;
+   justify-content: space-around;
+ }
+ .accordion-body{
+  display: block;
+ }
+ .flexi img{
+   height: 450px;
+ }
+    .textito h5{
+   text-align: center;
+   margin-top: -40px;
+   }
+    .textito p{
+   display:none;
+    }
+    .textito ul{
+   padding-top:5px;
+   padding-bottom: 20px;
+   }
+}
+
+@media all and (max-width: 1050px){
+  .carousel{
+    width:75%;
+  }
+  .textito h5{
+    text-align: center;
+  }
+   .flexi{
+      flex-direction:column-reverse;  
+   }
+   .carousel2-img{
+    width: 100%;
+    height: 100%;
+   }
+   .textito p{
+    width: 100%;
+    margin-bottom: 30px;
+   }
+}
+@media all and (max-width: 550px){
+  
+  .carousel-item{
+    height: 400px;
+  }
+  .flexi img{
+    height: 400px;
+  }
+   .crew{
+    width: 200px;
+   }
+  .textito h5{
+    text-align: center;
+    margin-top: -60px;
+    }
+    .textito ul{
+      display:none;
+    }
+    #Mtrailer{
+      width: 330px;
+      height:350px;
+    }
+}
